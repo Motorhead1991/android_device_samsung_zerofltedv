@@ -25,12 +25,12 @@ PRODUCT_RUNTIMES := runtime_libart_default
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, device/samsung/zeroflte/device.mk)
+$(call inherit-product, device/samsung/zerofltedv/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_zerflte
-PRODUCT_DEVICE := zeroflte
+PRODUCT_NAME := full_zerofltedv
+PRODUCT_DEVICE := zerofltedv
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_MODEL := SM-G920F
+PRODUCT_MODEL := SM-G920I

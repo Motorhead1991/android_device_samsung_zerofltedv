@@ -24,7 +24,7 @@
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte
+TARGET_OTA_ASSERT_DEVICE := zerofltedv
 
 # Kernel
 TARGET_KERNEL_CONFIG := exynos7420-zeroflte_defconfig
